@@ -1,0 +1,7 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../../axi4lite_part_b.gen/sources_1/bd/design_1/ipshared/d0f7" \
+"axi4lite_tb_time_impl.v" \
+"../../../../../axi4lite_part_b.srcs/sim_1/new/partb_tb.v" \
+
+# Do not sort compile order
+nosort

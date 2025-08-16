@@ -1,0 +1,49 @@
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L axi_bram_ctrl_v4_1_9 -L blk_mem_gen_v8_4_7 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot axi4lite_tb_behav xil_defaultlib.axi4lite_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-5021] port 's_axi_bresp' is not connected on this instance [C:/Users/gaara/Downloads/axi4lite_part_b/axi4lite_part_b/axi4lite_part_b.ip_user_files/bd/design_1/sim/design_1.v:65]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package ieee.std_logic_arith
+Compiling package xpm.vcomponents
+Compiling package axi_bram_ctrl_v4_1_9.axi_bram_ctrl_funcs
+Compiling module xil_defaultlib.half_adder
+Compiling module xil_defaultlib.full_adder
+Compiling module xil_defaultlib.pg
+Compiling module xil_defaultlib.PG_gen
+Compiling module xil_defaultlib.bkadder_32_default
+Compiling module xil_defaultlib.dadda_16
+Compiling module xil_defaultlib.axi4lite_dadda_master
+Compiling module xil_defaultlib.design_1_axi4lite_dadda_master_0...
+Compiling architecture implementation of entity axi_bram_ctrl_v4_1_9.axi_lite [\axi_lite(c_s_axi_addr_width=15,...]
+Compiling architecture implementation of entity axi_bram_ctrl_v4_1_9.axi_bram_ctrl_top [\axi_bram_ctrl_top(c_bram_addr_w...]
+Compiling architecture implementation of entity axi_bram_ctrl_v4_1_9.axi_bram_ctrl [\axi_bram_ctrl(c_memory_depth=81...]
+Compiling architecture design_1_axi_bram_ctrl_0_0_arch of entity xil_defaultlib.design_1_axi_bram_ctrl_0_0 [design_1_axi_bram_ctrl_0_0_defau...]
+Compiling module blk_mem_gen_v8_4_7.blk_mem_gen_v8_4_7_output_stage(...
+Compiling module blk_mem_gen_v8_4_7.blk_mem_gen_v8_4_7_output_stage(...
+Compiling module blk_mem_gen_v8_4_7.blk_mem_gen_v8_4_7_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_7.blk_mem_gen_v8_4_7_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_7.blk_mem_gen_v8_4_7(C_FAMILY="zyn...
+Compiling module xil_defaultlib.design_1_blk_mem_gen_0_0
+Compiling module unisims_ver.IBUF
+Compiling module unisims_ver.MMCME2_ADV(CLKFBOUT_MULT_F=8.0,C...
+Compiling module unisims_ver.BUFG
+Compiling module xil_defaultlib.design_1_clk_wiz_0_0_clk_wiz
+Compiling module xil_defaultlib.design_1_clk_wiz_0_0
+Compiling module xil_defaultlib.design_1_ila_0_0
+Compiling module xil_defaultlib.design_1_vio_0_0
+Compiling module xil_defaultlib.design_1
+Compiling module xil_defaultlib.design_1_wrapper
+Compiling module xil_defaultlib.axi4lite_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot axi4lite_tb_behav

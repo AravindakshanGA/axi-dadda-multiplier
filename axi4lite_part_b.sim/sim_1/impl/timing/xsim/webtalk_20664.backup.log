@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Webtalk v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Fri Feb  7 15:47:59 2025
+# Process ID: 20664
+# Current directory: C:/IITB/VLSI DESIGN LAB/vivado/vivadofiles/axi4lite_part_b/axi4lite_part_b.sim/sim_1/impl/timing/xsim
+# Command line: wbtcv.exe -mode batch -source C:/IITB/VLSI DESIGN LAB/vivado/vivadofiles/axi4lite_part_b/axi4lite_part_b.sim/sim_1/impl/timing/xsim/xsim.dir/axi4lite_tb_time_impl/webtalk/xsim_webtalk.tcl -notrace
+# Log file: C:/IITB/VLSI DESIGN LAB/vivado/vivadofiles/axi4lite_part_b/axi4lite_part_b.sim/sim_1/impl/timing/xsim/webtalk.log
+# Journal file: C:/IITB/VLSI DESIGN LAB/vivado/vivadofiles/axi4lite_part_b/axi4lite_part_b.sim/sim_1/impl/timing/xsim\webtalk.jou
+#-----------------------------------------------------------
+source C:/IITB/VLSI -notrace
+couldn't read file "C:/IITB/VLSI": permission denied
+INFO: [Common 17-206] Exiting Webtalk at Fri Feb  7 15:47:59 2025...

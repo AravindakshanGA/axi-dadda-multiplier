@@ -1,0 +1,651 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Sat Aug 16 02:25:33 2025
+# Process ID: 22872
+# Current directory: C:/Users/gaara/Downloads/axi4lite_part_b/axi4lite_part_b
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5516 C:\Users\gaara\Downloads\axi4lite_part_b\axi4lite_part_b\axi4lite_part_b.xpr
+# Log file: C:/Users/gaara/Downloads/axi4lite_part_b/axi4lite_part_b/vivado.log
+# Journal file: C:/Users/gaara/Downloads/axi4lite_part_b/axi4lite_part_b\vivado.jou
+# Running On: LAPTOP-TVH4GVK9, OS: Windows, CPU Frequency: 2918 MHz, CPU Physical cores: 14, Host memory: 16858 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/gaara/Downloads/axi4lite_part_b/axi4lite_part_b/axi4lite_part_b.xpr
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+INFO: [Project 1-313] Project file moved from 'C:/IITB/VLSI DESIGN LAB/vivado/vivadofiles/axi4lite_part_b' since last save.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/gaara/Downloads/axi4lite_part_b/brentkung/brentkung.srcs/sources_1/new/brentkung.v', nor could it be found using path 'C:/IITB/VLSI DESIGN LAB/vivado/vivadofiles/brentkung/brentkung.srcs/sources_1/new/brentkung.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/gaara/Downloads/axi4lite_part_b/daddamult/daddamult.srcs/sources_1/new/dadda_16.v', nor could it be found using path 'C:/IITB/VLSI DESIGN LAB/vivado/vivadofiles/daddamult/daddamult.srcs/sources_1/new/dadda_16.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/gaara/axilitedata.coe', nor could it be found using path 'C:/IITB/VLSI DESIGN LAB/axilitedata.coe'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2023.2/data/ip'.
+WARNING: [BD 41-1661] One or more IPs have been locked in the design 'design_1.bd'. Please run report_ip_status for more details and recommendations on how to fix this issue.
+List of locked IPs:
+design_1_vio_0_0
+design_1_ila_0_0
+design_1_axi_bram_ctrl_0_0
+design_1_blk_mem_gen_0_0
+design_1_clk_wiz_0_0
+
+INFO: [Project 1-230] Project 'axi4lite_part_b.xpr' upgraded for this version of Vivado.
+open_project: Time (s): cpu = 00:00:21 ; elapsed = 00:00:13 . Memory (MB): peak = 1680.133 ; gain = 468.617
+update_compile_order -fileset sources_1
+open_bd_design {C:/Users/gaara/Downloads/axi4lite_part_b/axi4lite_part_b/axi4lite_part_b.srcs/sources_1/bd/design_1/design_1.bd}
+Reading block design file <C:/Users/gaara/Downloads/axi4lite_part_b/axi4lite_part_b/axi4lite_part_b.srcs/sources_1/bd/design_1/design_1.bd>...
+Adding component instance block -- xilinx.com:module_ref:axi4lite_dadda_master:1.0 - axi4lite_dadda_master_0
+Adding component instance block -- xilinx.com:ip:vio:3.0 - vio_0
+Adding component instance block -- xilinx.com:ip:ila:6.2 - ila_0
+Adding component instance block -- xilinx.com:ip:axi_bram_ctrl:4.1 - axi_bram_ctrl_0
+Adding component instance block -- xilinx.com:ip:blk_mem_gen:8.4 - blk_mem_gen_0
+Adding component instance block -- xilinx.com:ip:clk_wiz:6.0 - clk_wiz_0
+Successfully read diagram <design_1> from block design file <C:/Users/gaara/Downloads/axi4lite_part_b/axi4lite_part_b/axi4lite_part_b.srcs/sources_1/bd/design_1/design_1.bd>
+open_bd_design: Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 1803.941 ; gain = 77.984
+report_ip_status -name ip_status 
+add_files -norecurse {C:/Users/gaara/Downloads/axi4lite_part_b/axi4lite_part_b/bkadder.v C:/Users/gaara/Downloads/axi4lite_part_b/axi4lite_part_b/dadda_mult.v}
+export_ip_user_files -of_objects  [get_files C:/Users/gaara/Downloads/axi4lite_part_b/brentkung/brentkung.srcs/sources_1/new/brentkung.v] -no_script -reset -force -quiet
+remove_files  C:/Users/gaara/Downloads/axi4lite_part_b/brentkung/brentkung.srcs/sources_1/new/brentkung.v
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\gaara\Downloads\axi4lite_part_b\axi4lite_part_b\axi4lite_part_b.srcs\sources_1\new\axi_lite_part_b.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\gaara\Downloads\axi4lite_part_b\axi4lite_part_b\dadda_mult.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+export_ip_user_files -of_objects  [get_files C:/Users/gaara/Downloads/axi4lite_part_b/daddamult/daddamult.srcs/sources_1/new/dadda_16.v] -no_script -reset -force -quiet
+remove_files  C:/Users/gaara/Downloads/axi4lite_part_b/daddamult/daddamult.srcs/sources_1/new/dadda_16.v
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\gaara\Downloads\axi4lite_part_b\axi4lite_part_b\axi4lite_part_b.srcs\sources_1\new\axi_lite_part_b.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\gaara\Downloads\axi4lite_part_b\axi4lite_part_b\dadda_mult.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+report_ip_status -name ip_status 
+upgrade_ip [get_ips  {design_1_ila_0_0 design_1_axi_bram_ctrl_0_0 design_1_vio_0_0 design_1_blk_mem_gen_0_0 design_1_clk_wiz_0_0}] -log ip_upgrade.log
+Upgrading 'C:/Users/gaara/Downloads/axi4lite_part_b/axi4lite_part_b/axi4lite_part_b.srcs/sources_1/bd/design_1/design_1.bd'
+INFO: [xilinx.com:ip:axi_bram_ctrl:4.1-2] design_1_axi_bram_ctrl_0_0: In IP Integrator, please note that memory depth value gets calculated based on the Data Width of the IP and Address range selected in the Address Editor.Incase a validation error occured on the range of this parameter, please check if the selected Data width and the Address Range are valid. For valid Data width and memory depth values, please refer to the AXI BRAM Controller Product Guide.
+INFO: [xilinx.com:ip:axi_bram_ctrl:4.1-1] design_1_axi_bram_ctrl_0_0: In IP Integrator, The Maximum address range supported is 2G. Selecting the address range more than 2G in the address editor may resets the value of Memory depth to default value (1024). please refer to the AXI BRAM Controller Product Guide.
+INFO: [xilinx.com:ip:axi_bram_ctrl:4.1-2] design_1_axi_bram_ctrl_0_0: In IP Integrator, please note that memory depth value gets calculated based on the Data Width of the IP and Address range selected in the Address Editor.Incase a validation error occured on the range of this parameter, please check if the selected Data width and the Address Range are valid. For valid Data width and memory depth values, please refer to the AXI BRAM Controller Product Guide.
+INFO: [xilinx.com:ip:axi_bram_ctrl:4.1-1] design_1_axi_bram_ctrl_0_0: In IP Integrator, The Maximum address range supported is 2G. Selecting the address range more than 2G in the address editor may resets the value of Memory depth to default value (1024). please refer to the AXI BRAM Controller Product Guide.
+INFO: [IP_Flow 19-3422] Upgraded design_1_axi_bram_ctrl_0_0 (AXI BRAM Controller 4.1) from revision 4 to revision 9
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\gaara\Downloads\axi4lite_part_b\axi4lite_part_b\axi4lite_part_b.srcs\sources_1\new\axi_lite_part_b.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\gaara\Downloads\axi4lite_part_b\axi4lite_part_b\dadda_mult.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [IP_Flow 19-4050] The normal upgrade process failed due to validation failures in the given configuration. Attempting partial upgrade to set as many user parameters as possible. Please check the parameters whose values were not applied.
+WARNING: [IP_Flow 19-3932] Unable to set the value 'true' on parameter 'Load Init File' due to the following failure - 
+Validation failed for parameter 'Coe File(Coe_File)' with current value 'no_coe_file_loaded' for BD Cell 'design_1_blk_mem_gen_0_0'. Validation failed for parameter 'Coe File(Coe_File)' with current value 'no_coe_file_loaded' for BD Cell 'design_1_blk_mem_gen_0_0'. No COE file loaded
+
+. Restoring to an old valid value of 'false'
+INFO: [IP_Flow 19-3422] Upgraded design_1_blk_mem_gen_0_0 (Block Memory Generator 8.4) from revision 4 to revision 7
+INFO: [Device 21-403] Loading part xc7z020clg400-1
+INFO: [IP_Flow 19-3422] Upgraded design_1_clk_wiz_0_0 (Clocking Wizard 6.0) from revision 6 to revision 13
+INFO: [IP_Flow 19-3422] Upgraded design_1_ila_0_0 (ILA (Integrated Logic Analyzer) 6.2) from revision 11 to revision 14
+INFO: [xilinx.com:ip:ila:6.2-6] /ila_0_upgraded_ipi: AMD recommends using the System ILA IP in IP Integrator. The System ILA IP is functionally equivalent to an ILA and offers additional benefits in debugging interfaces both within IP Integrator and the Hardware Manager. Consult the Programming and Debug User Guide UG908 for further details.
+INFO: [IP_Flow 19-3422] Upgraded design_1_vio_0_0 (VIO (Virtual Input/Output) 3.0) from revision 19 to revision 24
+CRITICAL WARNING: [Coretcl 2-1279] The upgrade of 'design_1_blk_mem_gen_0_0' has identified issues that may require user intervention. Please review the upgrade log 'c:/Users/gaara/Downloads/axi4lite_part_b/axi4lite_part_b/ip_upgrade.log', and verify that the upgraded IP is correctly configured.
+Wrote  : <C:\Users\gaara\Downloads\axi4lite_part_b\axi4lite_part_b\axi4lite_part_b.srcs\sources_1\bd\design_1\design_1.bd> 
+Wrote  : <C:/Users/gaara/Downloads/axi4lite_part_b/axi4lite_part_b/axi4lite_part_b.srcs/sources_1/bd/design_1/ui/bd_1f5defd0.ui> 
+INFO: [Coretcl 2-1525] Wrote upgrade log to 'C:/Users/gaara/Downloads/axi4lite_part_b/axi4lite_part_b/ip_upgrade.log'.
+upgrade_ip: Time (s): cpu = 00:00:09 ; elapsed = 00:00:16 . Memory (MB): peak = 2371.254 ; gain = 504.797
+ERROR: [Common 17-39] 'upgrade_ip' failed due to earlier errors.
+report_ip_status -name ip_status 
+update_module_reference [get_ips  design_1_axi4lite_dadda_master_0_0]
+INFO: [IP_Flow 19-5107] Inferred bus interface 's_axi' of definition 'xilinx.com:interface:aximm:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 's_axi_aresetn' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 's_axi_aclk' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-4728] Bus Interface 's_axi_aresetn': Added interface parameter 'POLARITY' with value 'ACTIVE_LOW'.
+INFO: [IP_Flow 19-4728] Bus Interface 's_axi_aclk': Added interface parameter 'ASSOCIATED_BUSIF' with value 's_axi'.
+INFO: [IP_Flow 19-4728] Bus Interface 's_axi_aclk': Added interface parameter 'ASSOCIATED_RESET' with value 's_axi_aresetn'.
+WARNING: [IP_Flow 19-11770] Clock interface 's_axi_aclk' has no FREQ_HZ parameter.
+INFO: [IP_Flow 19-5107] Inferred bus interface 's_axi' of definition 'xilinx.com:interface:aximm:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 's_axi_aresetn' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 's_axi_aclk' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-4728] Bus Interface 's_axi_aresetn': Added interface parameter 'POLARITY' with value 'ACTIVE_LOW'.
+INFO: [IP_Flow 19-4728] Bus Interface 's_axi_aclk': Added interface parameter 'ASSOCIATED_BUSIF' with value 's_axi'.
+INFO: [IP_Flow 19-4728] Bus Interface 's_axi_aclk': Added interface parameter 'ASSOCIATED_RESET' with value 's_axi_aresetn'.
+WARNING: [IP_Flow 19-11770] Clock interface 's_axi_aclk' has no FREQ_HZ parameter.
+Upgrading 'C:/Users/gaara/Downloads/axi4lite_part_b/axi4lite_part_b/axi4lite_part_b.srcs/sources_1/bd/design_1/design_1.bd'
+INFO: [IP_Flow 19-3420] Updated design_1_axi4lite_dadda_master_0_0 to use current project options
+Wrote  : <C:\Users\gaara\Downloads\axi4lite_part_b\axi4lite_part_b\axi4lite_part_b.srcs\sources_1\bd\design_1\design_1.bd> 
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\gaara\Downloads\axi4lite_part_b\axi4lite_part_b\axi4lite_part_b.srcs\sources_1\new\axi_lite_part_b.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\gaara\Downloads\axi4lite_part_b\axi4lite_part_b\dadda_mult.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+add_files -norecurse C:/Users/gaara/Downloads/axi4lite_part_b/axi4lite_part_b/axilitedata.coe
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\gaara\Downloads\axi4lite_part_b\axi4lite_part_b\axi4lite_part_b.srcs\sources_1\new\axi_lite_part_b.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\gaara\Downloads\axi4lite_part_b\axi4lite_part_b\dadda_mult.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+export_ip_user_files -of_objects  [get_files C:/Users/gaara/axilitedata.coe] -no_script -reset -force -quiet
+remove_files  C:/Users/gaara/axilitedata.coe
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\gaara\Downloads\axi4lite_part_b\axi4lite_part_b\axi4lite_part_b.srcs\sources_1\new\axi_lite_part_b.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\gaara\Downloads\axi4lite_part_b\axi4lite_part_b\dadda_mult.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+INFO: [IP_Flow 19-3484] Absolute path of file 'c:/Users/gaara/Downloads/axi4lite_part_b/axi4lite_part_b/axilitedata.coe' provided. It will be converted relative to IP Instance files '../../../../axilitedata.coe'
+startgroup
+set_property -dict [list \
+  CONFIG.Coe_File {C:/Users/gaara/Downloads/axi4lite_part_b/axi4lite_part_b/axilitedata.coe} \
+  CONFIG.Load_Init_File {true} \
+] [get_bd_cells blk_mem_gen_0]
+INFO: [IP_Flow 19-3484] Absolute path of file 'c:/Users/gaara/Downloads/axi4lite_part_b/axi4lite_part_b/axilitedata.coe' provided. It will be converted relative to IP Instance files '../../../../../../axilitedata.coe'
+endgroup
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+startgroup
+set_property CONFIG.use_bram_block {Stand_Alone} [get_bd_cells blk_mem_gen_0]
+endgroup
+validate_bd_design
+WARNING: [BD 41-2670] Found an incomplete address path from address space '/axi4lite_dadda_master_0/s_axi' to master interface '/axi4lite_dadda_master_0/s_axi'. Please either complete or remove this path to resolve.
+WARNING: [xilinx.com:ip:axi_bram_ctrl:4.1-1] /axi_bram_ctrl_0: PORT /axi_bram_ctrl_0/BRAM_PORTA is UNCONNECTED in the design. Leaving the BRAM interface unconnected will cause BRAMs not to be initialized by Data2Mem
+INFO: [xilinx.com:ip:clk_wiz:6.0-1] /clk_wiz_0 clk_wiz propagate
+save_bd_design
+Wrote  : <C:\Users\gaara\Downloads\axi4lite_part_b\axi4lite_part_b\axi4lite_part_b.srcs\sources_1\bd\design_1\design_1.bd> 
+reset_run synth_1
+launch_runs synth_1 -jobs 20
+INFO: [BD 41-1662] The design 'design_1.bd' is already validated. Therefore parameter propagation will not be re-run.
+CRITICAL WARNING: [BD 41-2383] Width mismatch when connecting input pin '/blk_mem_gen_0/addra'(32) to pin '/axi_bram_ctrl_0/bram_addr_a'(15) - Only lower order bits will be connected, and other input bits of this pin will be left unconnected.
+Verilog Output written to : c:/Users/gaara/Downloads/axi4lite_part_b/axi4lite_part_b/axi4lite_part_b.gen/sources_1/bd/design_1/synth/design_1.v
+CRITICAL WARNING: [BD 41-2383] Width mismatch when connecting input pin '/blk_mem_gen_0/addra'(32) to pin '/axi_bram_ctrl_0/bram_addr_a'(15) - Only lower order bits will be connected, and other input bits of this pin will be left unconnected.
+Verilog Output written to : c:/Users/gaara/Downloads/axi4lite_part_b/axi4lite_part_b/axi4lite_part_b.gen/sources_1/bd/design_1/sim/design_1.v
+Verilog Output written to : c:/Users/gaara/Downloads/axi4lite_part_b/axi4lite_part_b/axi4lite_part_b.gen/sources_1/bd/design_1/hdl/design_1_wrapper.v
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi4lite_dadda_master_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block vio_0 .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Users/gaara/Downloads/axi4lite_part_b/axi4lite_part_b/axi4lite_part_b.gen/sources_1/bd/design_1/ip/design_1_ila_0_0/design_1_ila_0_0_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ila_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_bram_ctrl_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block blk_mem_gen_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block clk_wiz_0 .
+Exporting to file c:/Users/gaara/Downloads/axi4lite_part_b/axi4lite_part_b/axi4lite_part_b.gen/sources_1/bd/design_1/hw_handoff/design_1.hwh
+Generated Hardware Definition File c:/Users/gaara/Downloads/axi4lite_part_b/axi4lite_part_b/axi4lite_part_b.gen/sources_1/bd/design_1/synth/design_1.hwdef
+INFO: [IP_Flow 19-6930] IPCACHE: runCacheChecks() number of threads = 8
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP design_1_axi4lite_dadda_master_0_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP design_1_axi_bram_ctrl_0_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP design_1_blk_mem_gen_0_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP design_1_clk_wiz_0_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP design_1_ila_0_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP design_1_vio_0_0
+INFO: [IP_Flow 19-8020] IPCACHE: runCacheChecks() calling threadPool finishWork()
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: design_1_axi4lite_dadda_master_0_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: design_1_axi_bram_ctrl_0_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: design_1_blk_mem_gen_0_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: design_1_clk_wiz_0_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: design_1_ila_0_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: design_1_vio_0_0
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\gaara\Downloads\axi4lite_part_b\axi4lite_part_b\axi4lite_part_b.srcs\sources_1\new\axi_lite_part_b.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\gaara\Downloads\axi4lite_part_b\axi4lite_part_b\dadda_mult.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+ERROR: [Common 17-180] Spawn failed: No error
+[Sun Aug 17 00:16:18 2025] Launched design_1_axi4lite_dadda_master_0_0_synth_1, design_1_vio_0_0_synth_1, design_1_axi_bram_ctrl_0_0_synth_1, design_1_blk_mem_gen_0_0_synth_1, design_1_ila_0_0_synth_1, design_1_clk_wiz_0_0_synth_1...
+Run output will be captured here:
+design_1_axi4lite_dadda_master_0_0_synth_1: C:/Users/gaara/Downloads/axi4lite_part_b/axi4lite_part_b/axi4lite_part_b.runs/design_1_axi4lite_dadda_master_0_0_synth_1/runme.log
+design_1_vio_0_0_synth_1: C:/Users/gaara/Downloads/axi4lite_part_b/axi4lite_part_b/axi4lite_part_b.runs/design_1_vio_0_0_synth_1/runme.log
+design_1_axi_bram_ctrl_0_0_synth_1: C:/Users/gaara/Downloads/axi4lite_part_b/axi4lite_part_b/axi4lite_part_b.runs/design_1_axi_bram_ctrl_0_0_synth_1/runme.log
+design_1_blk_mem_gen_0_0_synth_1: C:/Users/gaara/Downloads/axi4lite_part_b/axi4lite_part_b/axi4lite_part_b.runs/design_1_blk_mem_gen_0_0_synth_1/runme.log
+design_1_ila_0_0_synth_1: C:/Users/gaara/Downloads/axi4lite_part_b/axi4lite_part_b/axi4lite_part_b.runs/design_1_ila_0_0_synth_1/runme.log
+design_1_clk_wiz_0_0_synth_1: C:/Users/gaara/Downloads/axi4lite_part_b/axi4lite_part_b/axi4lite_part_b.runs/design_1_clk_wiz_0_0_synth_1/runme.log
+[Sun Aug 17 00:16:18 2025] Launched synth_1...
+Run output will be captured here: C:/Users/gaara/Downloads/axi4lite_part_b/axi4lite_part_b/axi4lite_part_b.runs/synth_1/runme.log
+launch_runs: Time (s): cpu = 00:00:03 ; elapsed = 00:00:07 . Memory (MB): peak = 2416.031 ; gain = 0.996
+ERROR: [Common 17-39] 'launch_runs' failed due to earlier errors.
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\gaara\Downloads\axi4lite_part_b\axi4lite_part_b\axi4lite_part_b.srcs\sources_1\new\axi_lite_part_b.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\gaara\Downloads\axi4lite_part_b\axi4lite_part_b\dadda_mult.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\gaara\Downloads\axi4lite_part_b\axi4lite_part_b\axi4lite_part_b.srcs\sources_1\new\axi_lite_part_b.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\gaara\Downloads\axi4lite_part_b\axi4lite_part_b\dadda_mult.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\gaara\Downloads\axi4lite_part_b\axi4lite_part_b\axi4lite_part_b.srcs\sources_1\new\axi_lite_part_b.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\gaara\Downloads\axi4lite_part_b\axi4lite_part_b\dadda_mult.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\gaara\Downloads\axi4lite_part_b\axi4lite_part_b\axi4lite_part_b.srcs\sources_1\new\axi_lite_part_b.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\gaara\Downloads\axi4lite_part_b\axi4lite_part_b\dadda_mult.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\gaara\Downloads\axi4lite_part_b\axi4lite_part_b\axi4lite_part_b.srcs\sources_1\new\axi_lite_part_b.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\gaara\Downloads\axi4lite_part_b\axi4lite_part_b\dadda_mult.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\gaara\Downloads\axi4lite_part_b\axi4lite_part_b\axi4lite_part_b.srcs\sources_1\new\axi_lite_part_b.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\gaara\Downloads\axi4lite_part_b\axi4lite_part_b\dadda_mult.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+startgroup
+endgroup
+launch_runs impl_1 -jobs 20
+[Sun Aug 17 00:18:46 2025] Launched impl_1...
+Run output will be captured here: C:/Users/gaara/Downloads/axi4lite_part_b/axi4lite_part_b/axi4lite_part_b.runs/impl_1/runme.log
+open_run impl_1
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.045 . Memory (MB): peak = 2434.055 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 157 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2023.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Read ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.008 . Memory (MB): peak = 2535.043 ; gain = 0.000
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+INFO: [Designutils 20-5722] Start Reading Physical Databases.
+Reading placement.
+Read Netlist Cache: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 3142.152 ; gain = 0.000
+Reading placer database...
+Read Device Cache: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.011 . Memory (MB): peak = 3142.152 ; gain = 0.000
+Read PlaceDB: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.103 . Memory (MB): peak = 3142.152 ; gain = 0.000
+Read PulsedLatchDB: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3142.152 ; gain = 0.000
+Reading routing.
+Read RouteStorage: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.065 . Memory (MB): peak = 3142.152 ; gain = 0.000
+Read Physdb Files: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.190 . Memory (MB): peak = 3142.152 ; gain = 0.000
+Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.190 . Memory (MB): peak = 3142.152 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 3142.152 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 54 instances were transformed.
+  CFGLUT5 => CFGLUT5 (SRL16E, SRLC32E): 48 instances
+  RAM32M => RAM32M (RAMD32(x6), RAMS32(x2)): 6 instances
+
+open_run: Time (s): cpu = 00:00:11 ; elapsed = 00:00:09 . Memory (MB): peak = 3282.262 ; gain = 864.715
+CRITICAL WARNING: [Timing 38-282] The design failed to meet the timing requirements. Please see the timing summary report for details on the timing violations.
+WARNING: [Timing 38-436] There are set_bus_skew constraint(s) in this design. Please run report_bus_skew to ensure that bus skew requirements are met.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'axi4lite_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/gaara/Downloads/axi4lite_part_b/axi4lite_part_b/axi4lite_part_b.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-13660] Precompiled IP simulation library mode is enabled (default). The design IP libraries will be referenced from the compiled library path. Please note that if the precompiled version of the library is not found from the path or the IP is in locked state, then the library source files for these IPs will be compiled locally as part of the compile order.
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2023.2/tps/boost_1_72_0'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2023.2/data/xsim/xsim.ini' copied to run dir:'C:/Users/gaara/Downloads/axi4lite_part_b/axi4lite_part_b/axi4lite_part_b.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'axi4lite_tb' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/gaara/Downloads/axi4lite_part_b/axi4lite_part_b/axi4lite_part_b.sim/sim_1/behav/xsim/axilitedata.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/gaara/Downloads/axi4lite_part_b/axi4lite_part_b/axi4lite_part_b.sim/sim_1/behav/xsim/design_1_blk_mem_gen_0_0.mif'
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\gaara\Downloads\axi4lite_part_b\axi4lite_part_b\axi4lite_part_b.srcs\sources_1\new\axi_lite_part_b.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\gaara\Downloads\axi4lite_part_b\axi4lite_part_b\dadda_mult.v:]
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/gaara/Downloads/axi4lite_part_b/axi4lite_part_b/axi4lite_part_b.sim/sim_1/behav/xsim'
+ERROR: [Common 17-180] Spawn failed: No error
+"xvlog --incr --relax -prj axi4lite_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gaara/Downloads/axi4lite_part_b/axi4lite_part_b/bkadder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bkadder_32
+INFO: [VRFC 10-311] analyzing module pg
+INFO: [VRFC 10-311] analyzing module PG_gen
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gaara/Downloads/axi4lite_part_b/axi4lite_part_b/dadda_mult.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dadda_16
+INFO: [VRFC 10-311] analyzing module half_adder
+INFO: [VRFC 10-311] analyzing module full_adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gaara/Downloads/axi4lite_part_b/axi4lite_part_b/axi4lite_part_b.srcs/sources_1/new/axi_lite_part_b.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi4lite_dadda_master
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gaara/Downloads/axi4lite_part_b/axi4lite_part_b/axi4lite_part_b.ip_user_files/bd/design_1/ip/design_1_axi4lite_dadda_master_0_0/sim/design_1_axi4lite_dadda_master_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_axi4lite_dadda_master_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gaara/Downloads/axi4lite_part_b/axi4lite_part_b/axi4lite_part_b.ip_user_files/bd/design_1/ip/design_1_vio_0_0/sim/design_1_vio_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_vio_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gaara/Downloads/axi4lite_part_b/axi4lite_part_b/axi4lite_part_b.ip_user_files/bd/design_1/ip/design_1_ila_0_0/sim/design_1_ila_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_ila_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gaara/Downloads/axi4lite_part_b/axi4lite_part_b/axi4lite_part_b.ip_user_files/bd/design_1/ip/design_1_blk_mem_gen_0_0/sim/design_1_blk_mem_gen_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_blk_mem_gen_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gaara/Downloads/axi4lite_part_b/axi4lite_part_b/axi4lite_part_b.ip_user_files/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0_clk_wiz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_clk_wiz_0_0_clk_wiz
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gaara/Downloads/axi4lite_part_b/axi4lite_part_b/axi4lite_part_b.ip_user_files/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_clk_wiz_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gaara/Downloads/axi4lite_part_b/axi4lite_part_b/axi4lite_part_b.ip_user_files/bd/design_1/sim/design_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gaara/Downloads/axi4lite_part_b/axi4lite_part_b/axi4lite_part_b.gen/sources_1/bd/design_1/hdl/design_1_wrapper.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_wrapper
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gaara/Downloads/axi4lite_part_b/axi4lite_part_b/axi4lite_part_b.srcs/sim_1/new/partb_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi4lite_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gaara/Downloads/axi4lite_part_b/axi4lite_part_b/axi4lite_part_b.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+"xvhdl --incr --relax -prj axi4lite_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/gaara/Downloads/axi4lite_part_b/axi4lite_part_b/axi4lite_part_b.ip_user_files/bd/design_1/ip/design_1_axi_bram_ctrl_0_0/sim/design_1_axi_bram_ctrl_0_0.vhd" into library xil_defaultlib
+ERROR: [VRFC 10-2987] 'axi_bram_ctrl' is not compiled in library 'axi_bram_ctrl_v4_1_4' [C:/Users/gaara/Downloads/axi4lite_part_b/axi4lite_part_b/axi4lite_part_b.ip_user_files/bd/design_1/ip/design_1_axi_bram_ctrl_0_0/sim/design_1_axi_bram_ctrl_0_0.vhd:57]
+INFO: [VRFC 10-3107] analyzing entity 'design_1_axi_bram_ctrl_0_0'
+ERROR: [VRFC 10-9458] unit 'design_1_axi_bram_ctrl_0_0' is ignored due to previous errors [C:/Users/gaara/Downloads/axi4lite_part_b/axi4lite_part_b/axi4lite_part_b.ip_user_files/bd/design_1/ip/design_1_axi_bram_ctrl_0_0/sim/design_1_axi_bram_ctrl_0_0.vhd:59]
+INFO: [VRFC 10-8704] VHDL file 'C:/Users/gaara/Downloads/axi4lite_part_b/axi4lite_part_b/axi4lite_part_b.ip_user_files/bd/design_1/ip/design_1_axi_bram_ctrl_0_0/sim/design_1_axi_bram_ctrl_0_0.vhd' is ignored due to errors
+INFO: [USF-XSim-69] 'compile' step finished in '4' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/gaara/Downloads/axi4lite_part_b/axi4lite_part_b/axi4lite_part_b.sim/sim_1/behav/xsim/xvhdl.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'C:/Users/gaara/Downloads/axi4lite_part_b/axi4lite_part_b/axi4lite_part_b.sim/sim_1/behav/xsim/xvhdl.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+close_design
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\gaara\Downloads\axi4lite_part_b\axi4lite_part_b\axi4lite_part_b.srcs\sources_1\new\axi_lite_part_b.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\gaara\Downloads\axi4lite_part_b\axi4lite_part_b\dadda_mult.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\gaara\Downloads\axi4lite_part_b\axi4lite_part_b\axi4lite_part_b.srcs\sim_1\new\partb_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\gaara\Downloads\axi4lite_part_b\axi4lite_part_b\axi4lite_part_b.srcs\sources_1\new\axi_lite_part_b.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\gaara\Downloads\axi4lite_part_b\axi4lite_part_b\axi4lite_part_b.srcs\sources_1\new\axi_lite_part_b.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\gaara\Downloads\axi4lite_part_b\axi4lite_part_b\dadda_mult.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\gaara\Downloads\axi4lite_part_b\axi4lite_part_b\axi4lite_part_b.srcs\sim_1\new\partb_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\gaara\Downloads\axi4lite_part_b\axi4lite_part_b\axi4lite_part_b.srcs\sources_1\new\axi_lite_part_b.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\gaara\Downloads\axi4lite_part_b\axi4lite_part_b\dadda_mult.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\gaara\Downloads\axi4lite_part_b\axi4lite_part_b\axi4lite_part_b.srcs\sim_1\new\partb_tb.v:]
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'axi4lite_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/gaara/Downloads/axi4lite_part_b/axi4lite_part_b/axi4lite_part_b.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-13660] Precompiled IP simulation library mode is enabled (default). The design IP libraries will be referenced from the compiled library path. Please note that if the precompiled version of the library is not found from the path or the IP is in locked state, then the library source files for these IPs will be compiled locally as part of the compile order.
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2023.2/tps/boost_1_72_0'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2023.2/data/xsim/xsim.ini' copied to run dir:'C:/Users/gaara/Downloads/axi4lite_part_b/axi4lite_part_b/axi4lite_part_b.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'axi4lite_tb' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/gaara/Downloads/axi4lite_part_b/axi4lite_part_b/axi4lite_part_b.sim/sim_1/behav/xsim/axilitedata.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/gaara/Downloads/axi4lite_part_b/axi4lite_part_b/axi4lite_part_b.sim/sim_1/behav/xsim/design_1_blk_mem_gen_0_0.mif'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/gaara/Downloads/axi4lite_part_b/axi4lite_part_b/axi4lite_part_b.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj axi4lite_tb_vlog.prj"
+"xvhdl --incr --relax -prj axi4lite_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/gaara/Downloads/axi4lite_part_b/axi4lite_part_b/axi4lite_part_b.ip_user_files/bd/design_1/ip/design_1_axi_bram_ctrl_0_0/sim/design_1_axi_bram_ctrl_0_0.vhd" into library xil_defaultlib
+ERROR: [VRFC 10-2987] 'axi_bram_ctrl' is not compiled in library 'axi_bram_ctrl_v4_1_4' [C:/Users/gaara/Downloads/axi4lite_part_b/axi4lite_part_b/axi4lite_part_b.ip_user_files/bd/design_1/ip/design_1_axi_bram_ctrl_0_0/sim/design_1_axi_bram_ctrl_0_0.vhd:57]
+INFO: [VRFC 10-3107] analyzing entity 'design_1_axi_bram_ctrl_0_0'
+ERROR: [VRFC 10-9458] unit 'design_1_axi_bram_ctrl_0_0' is ignored due to previous errors [C:/Users/gaara/Downloads/axi4lite_part_b/axi4lite_part_b/axi4lite_part_b.ip_user_files/bd/design_1/ip/design_1_axi_bram_ctrl_0_0/sim/design_1_axi_bram_ctrl_0_0.vhd:59]
+INFO: [VRFC 10-8704] VHDL file 'C:/Users/gaara/Downloads/axi4lite_part_b/axi4lite_part_b/axi4lite_part_b.ip_user_files/bd/design_1/ip/design_1_axi_bram_ctrl_0_0/sim/design_1_axi_bram_ctrl_0_0.vhd' is ignored due to errors
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/gaara/Downloads/axi4lite_part_b/axi4lite_part_b/axi4lite_part_b.sim/sim_1/behav/xsim/xvhdl.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'C:/Users/gaara/Downloads/axi4lite_part_b/axi4lite_part_b/axi4lite_part_b.sim/sim_1/behav/xsim/xvhdl.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+generate_target all [get_files  C:/Users/gaara/Downloads/axi4lite_part_b/axi4lite_part_b/axi4lite_part_b.srcs/sources_1/bd/design_1/design_1.bd]
+INFO: [BD 41-1637] Generated targets are already up-to-date for block design 'design_1' - hence not re-generating.
+export_ip_user_files -of_objects [get_files C:/Users/gaara/Downloads/axi4lite_part_b/axi4lite_part_b/axi4lite_part_b.srcs/sources_1/bd/design_1/design_1.bd] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] C:/Users/gaara/Downloads/axi4lite_part_b/axi4lite_part_b/axi4lite_part_b.srcs/sources_1/bd/design_1/design_1.bd]
+export_simulation -of_objects [get_files C:/Users/gaara/Downloads/axi4lite_part_b/axi4lite_part_b/axi4lite_part_b.srcs/sources_1/bd/design_1/design_1.bd] -directory C:/Users/gaara/Downloads/axi4lite_part_b/axi4lite_part_b/axi4lite_part_b.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/gaara/Downloads/axi4lite_part_b/axi4lite_part_b/axi4lite_part_b.ip_user_files -ipstatic_source_dir C:/Users/gaara/Downloads/axi4lite_part_b/axi4lite_part_b/axi4lite_part_b.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/Users/gaara/Downloads/axi4lite_part_b/axi4lite_part_b/axi4lite_part_b.cache/compile_simlib/modelsim} {questa=C:/Users/gaara/Downloads/axi4lite_part_b/axi4lite_part_b/axi4lite_part_b.cache/compile_simlib/questa} {riviera=C:/Users/gaara/Downloads/axi4lite_part_b/axi4lite_part_b/axi4lite_part_b.cache/compile_simlib/riviera} {activehdl=C:/Users/gaara/Downloads/axi4lite_part_b/axi4lite_part_b/axi4lite_part_b.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+reset_run synth_1
+launch_runs synth_1 -jobs 20
+[Sun Aug 17 00:33:17 2025] Launched synth_1...
+Run output will be captured here: C:/Users/gaara/Downloads/axi4lite_part_b/axi4lite_part_b/axi4lite_part_b.runs/synth_1/runme.log
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'axi4lite_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/gaara/Downloads/axi4lite_part_b/axi4lite_part_b/axi4lite_part_b.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-13660] Precompiled IP simulation library mode is enabled (default). The design IP libraries will be referenced from the compiled library path. Please note that if the precompiled version of the library is not found from the path or the IP is in locked state, then the library source files for these IPs will be compiled locally as part of the compile order.
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2023.2/tps/boost_1_72_0'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2023.2/data/xsim/xsim.ini' copied to run dir:'C:/Users/gaara/Downloads/axi4lite_part_b/axi4lite_part_b/axi4lite_part_b.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'axi4lite_tb' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/gaara/Downloads/axi4lite_part_b/axi4lite_part_b/axi4lite_part_b.sim/sim_1/behav/xsim/axilitedata.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/gaara/Downloads/axi4lite_part_b/axi4lite_part_b/axi4lite_part_b.sim/sim_1/behav/xsim/design_1_blk_mem_gen_0_0.mif'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/gaara/Downloads/axi4lite_part_b/axi4lite_part_b/axi4lite_part_b.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj axi4lite_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gaara/Downloads/axi4lite_part_b/axi4lite_part_b/bkadder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bkadder_32
+INFO: [VRFC 10-311] analyzing module pg
+INFO: [VRFC 10-311] analyzing module PG_gen
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gaara/Downloads/axi4lite_part_b/axi4lite_part_b/dadda_mult.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dadda_16
+INFO: [VRFC 10-311] analyzing module half_adder
+INFO: [VRFC 10-311] analyzing module full_adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gaara/Downloads/axi4lite_part_b/axi4lite_part_b/axi4lite_part_b.srcs/sources_1/new/axi_lite_part_b.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi4lite_dadda_master
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gaara/Downloads/axi4lite_part_b/axi4lite_part_b/axi4lite_part_b.ip_user_files/bd/design_1/ip/design_1_axi4lite_dadda_master_0_0/sim/design_1_axi4lite_dadda_master_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_axi4lite_dadda_master_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gaara/Downloads/axi4lite_part_b/axi4lite_part_b/axi4lite_part_b.ip_user_files/bd/design_1/ip/design_1_vio_0_0/sim/design_1_vio_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_vio_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gaara/Downloads/axi4lite_part_b/axi4lite_part_b/axi4lite_part_b.ip_user_files/bd/design_1/ip/design_1_ila_0_0/sim/design_1_ila_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_ila_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gaara/Downloads/axi4lite_part_b/axi4lite_part_b/axi4lite_part_b.ip_user_files/bd/design_1/ip/design_1_blk_mem_gen_0_0/sim/design_1_blk_mem_gen_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_blk_mem_gen_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gaara/Downloads/axi4lite_part_b/axi4lite_part_b/axi4lite_part_b.ip_user_files/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0_clk_wiz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_clk_wiz_0_0_clk_wiz
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gaara/Downloads/axi4lite_part_b/axi4lite_part_b/axi4lite_part_b.ip_user_files/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_clk_wiz_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gaara/Downloads/axi4lite_part_b/axi4lite_part_b/axi4lite_part_b.ip_user_files/bd/design_1/sim/design_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gaara/Downloads/axi4lite_part_b/axi4lite_part_b/axi4lite_part_b.gen/sources_1/bd/design_1/hdl/design_1_wrapper.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_wrapper
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gaara/Downloads/axi4lite_part_b/axi4lite_part_b/axi4lite_part_b.srcs/sim_1/new/partb_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi4lite_tb
+"xvhdl --incr --relax -prj axi4lite_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/gaara/Downloads/axi4lite_part_b/axi4lite_part_b/axi4lite_part_b.ip_user_files/bd/design_1/ip/design_1_axi_bram_ctrl_0_0/sim/design_1_axi_bram_ctrl_0_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'design_1_axi_bram_ctrl_0_0'
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/gaara/Downloads/axi4lite_part_b/axi4lite_part_b/axi4lite_part_b.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L axi_bram_ctrl_v4_1_9 -L blk_mem_gen_v8_4_7 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot axi4lite_tb_behav xil_defaultlib.axi4lite_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L axi_bram_ctrl_v4_1_9 -L blk_mem_gen_v8_4_7 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot axi4lite_tb_behav xil_defaultlib.axi4lite_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-5021] port 's_axi_bresp' is not connected on this instance [C:/Users/gaara/Downloads/axi4lite_part_b/axi4lite_part_b/axi4lite_part_b.ip_user_files/bd/design_1/sim/design_1.v:65]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package ieee.std_logic_arith
+Compiling package xpm.vcomponents
+Compiling package axi_bram_ctrl_v4_1_9.axi_bram_ctrl_funcs
+Compiling module xil_defaultlib.half_adder
+Compiling module xil_defaultlib.full_adder
+Compiling module xil_defaultlib.pg
+Compiling module xil_defaultlib.PG_gen
+Compiling module xil_defaultlib.bkadder_32_default
+Compiling module xil_defaultlib.dadda_16
+Compiling module xil_defaultlib.axi4lite_dadda_master
+Compiling module xil_defaultlib.design_1_axi4lite_dadda_master_0...
+Compiling architecture implementation of entity axi_bram_ctrl_v4_1_9.axi_lite [\axi_lite(c_s_axi_addr_width=15,...]
+Compiling architecture implementation of entity axi_bram_ctrl_v4_1_9.axi_bram_ctrl_top [\axi_bram_ctrl_top(c_bram_addr_w...]
+Compiling architecture implementation of entity axi_bram_ctrl_v4_1_9.axi_bram_ctrl [\axi_bram_ctrl(c_memory_depth=81...]
+Compiling architecture design_1_axi_bram_ctrl_0_0_arch of entity xil_defaultlib.design_1_axi_bram_ctrl_0_0 [design_1_axi_bram_ctrl_0_0_defau...]
+Compiling module blk_mem_gen_v8_4_7.blk_mem_gen_v8_4_7_output_stage(...
+Compiling module blk_mem_gen_v8_4_7.blk_mem_gen_v8_4_7_output_stage(...
+Compiling module blk_mem_gen_v8_4_7.blk_mem_gen_v8_4_7_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_7.blk_mem_gen_v8_4_7_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_7.blk_mem_gen_v8_4_7(C_FAMILY="zyn...
+Compiling module xil_defaultlib.design_1_blk_mem_gen_0_0
+Compiling module unisims_ver.IBUF
+Compiling module unisims_ver.MMCME2_ADV(CLKFBOUT_MULT_F=8.0,C...
+Compiling module unisims_ver.BUFG
+Compiling module xil_defaultlib.design_1_clk_wiz_0_0_clk_wiz
+Compiling module xil_defaultlib.design_1_clk_wiz_0_0
+Compiling module xil_defaultlib.design_1_ila_0_0
+Compiling module xil_defaultlib.design_1_vio_0_0
+Compiling module xil_defaultlib.design_1
+Compiling module xil_defaultlib.design_1_wrapper
+Compiling module xil_defaultlib.axi4lite_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot axi4lite_tb_behav
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 3318.176 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '6' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/gaara/Downloads/axi4lite_part_b/axi4lite_part_b/axi4lite_part_b.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "axi4lite_tb_behav -key {Behavioral:sim_1:Functional:axi4lite_tb} -tclbatch {axi4lite_tb.tcl} -protoinst "protoinst_files/design_1.protoinst" -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/design_1.protoinst
+Time resolution is 1 ps
+source axi4lite_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module axi4lite_tb.dut.design_1_i.blk_mem_gen_0.inst.\native_mem_mapped_module.blk_mem_gen_v8_4_7_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Warning: [Unisim MMCME2_ADV-20] Input CLKIN1 period and attribute CLKIN1_PERIOD are not same. Instance axi4lite_tb.dut.design_1_i.clk_wiz_0.inst.mmcm_adv_inst 
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'axi4lite_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:12 . Memory (MB): peak = 3318.176 ; gain = 0.000
+current_wave_config {Untitled 1}
+Untitled 1
+add_wave {{/axi4lite_tb/dut/design_1_i/axi4lite_dadda_master_0/inst/dadda_mult_inst/a}} {{/axi4lite_tb/dut/design_1_i/axi4lite_dadda_master_0/inst/dadda_mult_inst/b}} {{/axi4lite_tb/dut/design_1_i/axi4lite_dadda_master_0/inst/dadda_mult_inst/m}} 
+restart
+INFO: [Wavedata 42-604] Simulation restarted
+run all
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module axi4lite_tb.dut.design_1_i.blk_mem_gen_0.inst.\native_mem_mapped_module.blk_mem_gen_v8_4_7_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Warning: [Unisim MMCME2_ADV-20] Input CLKIN1 period and attribute CLKIN1_PERIOD are not same. Instance axi4lite_tb.dut.design_1_i.clk_wiz_0.inst.mmcm_adv_inst 
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'axi4lite_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/gaara/Downloads/axi4lite_part_b/axi4lite_part_b/axi4lite_part_b.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-13660] Precompiled IP simulation library mode is enabled (default). The design IP libraries will be referenced from the compiled library path. Please note that if the precompiled version of the library is not found from the path or the IP is in locked state, then the library source files for these IPs will be compiled locally as part of the compile order.
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2023.2/tps/boost_1_72_0'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2023.2/data/xsim/xsim.ini' copied to run dir:'C:/Users/gaara/Downloads/axi4lite_part_b/axi4lite_part_b/axi4lite_part_b.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'axi4lite_tb' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/gaara/Downloads/axi4lite_part_b/axi4lite_part_b/axi4lite_part_b.sim/sim_1/behav/xsim/axilitedata.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/gaara/Downloads/axi4lite_part_b/axi4lite_part_b/axi4lite_part_b.sim/sim_1/behav/xsim/design_1_blk_mem_gen_0_0.mif'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/gaara/Downloads/axi4lite_part_b/axi4lite_part_b/axi4lite_part_b.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj axi4lite_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gaara/Downloads/axi4lite_part_b/axi4lite_part_b/bkadder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bkadder_32
+INFO: [VRFC 10-311] analyzing module pg
+INFO: [VRFC 10-311] analyzing module PG_gen
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gaara/Downloads/axi4lite_part_b/axi4lite_part_b/dadda_mult.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dadda_16
+INFO: [VRFC 10-311] analyzing module half_adder
+INFO: [VRFC 10-311] analyzing module full_adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gaara/Downloads/axi4lite_part_b/axi4lite_part_b/axi4lite_part_b.srcs/sources_1/new/axi_lite_part_b.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi4lite_dadda_master
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gaara/Downloads/axi4lite_part_b/axi4lite_part_b/axi4lite_part_b.ip_user_files/bd/design_1/ip/design_1_axi4lite_dadda_master_0_0/sim/design_1_axi4lite_dadda_master_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_axi4lite_dadda_master_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gaara/Downloads/axi4lite_part_b/axi4lite_part_b/axi4lite_part_b.ip_user_files/bd/design_1/ip/design_1_vio_0_0/sim/design_1_vio_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_vio_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gaara/Downloads/axi4lite_part_b/axi4lite_part_b/axi4lite_part_b.ip_user_files/bd/design_1/ip/design_1_ila_0_0/sim/design_1_ila_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_ila_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gaara/Downloads/axi4lite_part_b/axi4lite_part_b/axi4lite_part_b.ip_user_files/bd/design_1/ip/design_1_blk_mem_gen_0_0/sim/design_1_blk_mem_gen_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_blk_mem_gen_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gaara/Downloads/axi4lite_part_b/axi4lite_part_b/axi4lite_part_b.ip_user_files/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0_clk_wiz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_clk_wiz_0_0_clk_wiz
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gaara/Downloads/axi4lite_part_b/axi4lite_part_b/axi4lite_part_b.ip_user_files/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_clk_wiz_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gaara/Downloads/axi4lite_part_b/axi4lite_part_b/axi4lite_part_b.ip_user_files/bd/design_1/sim/design_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gaara/Downloads/axi4lite_part_b/axi4lite_part_b/axi4lite_part_b.gen/sources_1/bd/design_1/hdl/design_1_wrapper.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_wrapper
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gaara/Downloads/axi4lite_part_b/axi4lite_part_b/axi4lite_part_b.srcs/sim_1/new/partb_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi4lite_tb
+"xvhdl --incr --relax -prj axi4lite_tb_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/gaara/Downloads/axi4lite_part_b/axi4lite_part_b/axi4lite_part_b.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L axi_bram_ctrl_v4_1_9 -L blk_mem_gen_v8_4_7 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot axi4lite_tb_behav xil_defaultlib.axi4lite_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L axi_bram_ctrl_v4_1_9 -L blk_mem_gen_v8_4_7 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot axi4lite_tb_behav xil_defaultlib.axi4lite_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-5021] port 's_axi_bresp' is not connected on this instance [C:/Users/gaara/Downloads/axi4lite_part_b/axi4lite_part_b/axi4lite_part_b.ip_user_files/bd/design_1/sim/design_1.v:65]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package ieee.std_logic_arith
+Compiling package xpm.vcomponents
+Compiling package axi_bram_ctrl_v4_1_9.axi_bram_ctrl_funcs
+Compiling module xil_defaultlib.half_adder
+Compiling module xil_defaultlib.full_adder
+Compiling module xil_defaultlib.pg
+Compiling module xil_defaultlib.PG_gen
+Compiling module xil_defaultlib.bkadder_32_default
+Compiling module xil_defaultlib.dadda_16
+Compiling module xil_defaultlib.axi4lite_dadda_master
+Compiling module xil_defaultlib.design_1_axi4lite_dadda_master_0...
+Compiling architecture implementation of entity axi_bram_ctrl_v4_1_9.axi_lite [\axi_lite(c_s_axi_addr_width=15,...]
+Compiling architecture implementation of entity axi_bram_ctrl_v4_1_9.axi_bram_ctrl_top [\axi_bram_ctrl_top(c_bram_addr_w...]
+Compiling architecture implementation of entity axi_bram_ctrl_v4_1_9.axi_bram_ctrl [\axi_bram_ctrl(c_memory_depth=81...]
+Compiling architecture design_1_axi_bram_ctrl_0_0_arch of entity xil_defaultlib.design_1_axi_bram_ctrl_0_0 [design_1_axi_bram_ctrl_0_0_defau...]
+Compiling module blk_mem_gen_v8_4_7.blk_mem_gen_v8_4_7_output_stage(...
+Compiling module blk_mem_gen_v8_4_7.blk_mem_gen_v8_4_7_output_stage(...
+Compiling module blk_mem_gen_v8_4_7.blk_mem_gen_v8_4_7_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_7.blk_mem_gen_v8_4_7_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_7.blk_mem_gen_v8_4_7(C_FAMILY="zyn...
+Compiling module xil_defaultlib.design_1_blk_mem_gen_0_0
+Compiling module unisims_ver.IBUF
+Compiling module unisims_ver.MMCME2_ADV(CLKFBOUT_MULT_F=8.0,C...
+Compiling module unisims_ver.BUFG
+Compiling module xil_defaultlib.design_1_clk_wiz_0_0_clk_wiz
+Compiling module xil_defaultlib.design_1_clk_wiz_0_0
+Compiling module xil_defaultlib.design_1_ila_0_0
+Compiling module xil_defaultlib.design_1_vio_0_0
+Compiling module xil_defaultlib.design_1
+Compiling module xil_defaultlib.design_1_wrapper
+Compiling module xil_defaultlib.axi4lite_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot axi4lite_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '5' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/gaara/Downloads/axi4lite_part_b/axi4lite_part_b/axi4lite_part_b.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "axi4lite_tb_behav -key {Behavioral:sim_1:Functional:axi4lite_tb} -tclbatch {axi4lite_tb.tcl} -protoinst "protoinst_files/design_1.protoinst" -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/design_1.protoinst
+Time resolution is 1 ps
+source axi4lite_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module axi4lite_tb.dut.design_1_i.blk_mem_gen_0.inst.\native_mem_mapped_module.blk_mem_gen_v8_4_7_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Warning: [Unisim MMCME2_ADV-20] Input CLKIN1 period and attribute CLKIN1_PERIOD are not same. Instance axi4lite_tb.dut.design_1_i.clk_wiz_0.inst.mmcm_adv_inst 
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'axi4lite_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:09 . Memory (MB): peak = 3318.176 ; gain = 0.000
+current_wave_config {Untitled 2}
+Untitled 2
+add_wave {{/axi4lite_tb/dut/design_1_i/axi4lite_dadda_master_0/s_axi_aclk}} {{/axi4lite_tb/dut/design_1_i/axi4lite_dadda_master_0/s_axi_aresetn}} {{/axi4lite_tb/dut/design_1_i/axi4lite_dadda_master_0/s_axi_araddr}} {{/axi4lite_tb/dut/design_1_i/axi4lite_dadda_master_0/s_axi_arvalid}} {{/axi4lite_tb/dut/design_1_i/axi4lite_dadda_master_0/s_axi_arready}} {{/axi4lite_tb/dut/design_1_i/axi4lite_dadda_master_0/s_axi_rdata}} {{/axi4lite_tb/dut/design_1_i/axi4lite_dadda_master_0/s_axi_rvalid}} {{/axi4lite_tb/dut/design_1_i/axi4lite_dadda_master_0/s_axi_rready}} {{/axi4lite_tb/dut/design_1_i/axi4lite_dadda_master_0/s_axi_awaddr}} {{/axi4lite_tb/dut/design_1_i/axi4lite_dadda_master_0/s_axi_awvalid}} {{/axi4lite_tb/dut/design_1_i/axi4lite_dadda_master_0/s_axi_awready}} {{/axi4lite_tb/dut/design_1_i/axi4lite_dadda_master_0/s_axi_wdata}} {{/axi4lite_tb/dut/design_1_i/axi4lite_dadda_master_0/s_axi_wvalid}} {{/axi4lite_tb/dut/design_1_i/axi4lite_dadda_master_0/s_axi_wready}} {{/axi4lite_tb/dut/design_1_i/axi4lite_dadda_master_0/s_axi_bvalid}} {{/axi4lite_tb/dut/design_1_i/axi4lite_dadda_master_0/s_axi_bready}} 
+restart
+INFO: [Wavedata 42-604] Simulation restarted
+run all
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module axi4lite_tb.dut.design_1_i.blk_mem_gen_0.inst.\native_mem_mapped_module.blk_mem_gen_v8_4_7_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Warning: [Unisim MMCME2_ADV-20] Input CLKIN1 period and attribute CLKIN1_PERIOD are not same. Instance axi4lite_tb.dut.design_1_i.clk_wiz_0.inst.mmcm_adv_inst 
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun Aug 17 00:39:10 2025...

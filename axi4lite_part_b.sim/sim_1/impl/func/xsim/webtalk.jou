@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Fri Feb  7 15:45:38 2025
+# Process ID: 24988
+# Current directory: C:/IITB/VLSI DESIGN LAB/vivado/vivadofiles/axi4lite_part_b/axi4lite_part_b.sim/sim_1/impl/func/xsim
+# Command line: wbtcv.exe -mode batch -source C:/IITB/VLSI DESIGN LAB/vivado/vivadofiles/axi4lite_part_b/axi4lite_part_b.sim/sim_1/impl/func/xsim/xsim.dir/axi4lite_tb_func_impl/webtalk/xsim_webtalk.tcl -notrace
+# Log file: C:/IITB/VLSI DESIGN LAB/vivado/vivadofiles/axi4lite_part_b/axi4lite_part_b.sim/sim_1/impl/func/xsim/webtalk.log
+# Journal file: C:/IITB/VLSI DESIGN LAB/vivado/vivadofiles/axi4lite_part_b/axi4lite_part_b.sim/sim_1/impl/func/xsim\webtalk.jou
+#-----------------------------------------------------------
+source C:/IITB/VLSI -notrace
